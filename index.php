@@ -1,15 +1,20 @@
-<!DOCTYPE html>
-
-<head></head>
-<body>
-
-こちらはHTMLのテストです。
-
 <?php
 
-echo('こちらはPHPのテストです。');
+/*数字と文字
+数字は半角*/
 
+// 上のやり方が複数行のやり方
 
-?>
-</body>
-</html>
+echo(123);
+echo('<br>');
+
+//１２３・・文字として認識
+
+echo('こんにちは');
+echo('<br>');
+
+echo("こんばんは");
+echo('<br>');
+echo('こんば””んは');
+echo('<br>');
+echo('こちらはPHPです');
